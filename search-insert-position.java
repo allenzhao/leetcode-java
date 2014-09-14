@@ -2,7 +2,7 @@
  *  By : Zehan Zhao , i@allenzhao.com
  *  Blog : http://blog.allenzhao.com
  *  LeetCode Link: https://oj.leetcode.com/problems/search-insert-position/
- *  Blog post link: http://blog.allenzhao.com/leetcode/2014/09/14/LeetCode-Search-Inser-Position/
+ *  Blog post link: http://blog.allenzhao.com/leetcode/2014/09/14/LeetCode-Search-Insert-Position/
  */
 
 public class Solution {
