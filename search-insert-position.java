@@ -2,13 +2,17 @@
  *  By : Zehan Zhao , i@allenzhao.com
  *  Blog : http://blog.allenzhao.com
  *  LeetCode Link: https://oj.leetcode.com/problems/search-insert-position/
+ *  Blog post link: http://blog.allenzhao.com/leetcode/2014/09/14/LeetCode-Search-Inser-Position/
  */
 
 public class Solution {
     public int searchInsert(int[] A, int target) {
         // This can be seen as a binary search, in which we return the Kth number that is
         // smaller than the target.
-        if (target < A[0]){
+        if (A.length == 0 || A == null) {
+            return -1;
+        }
+        if (target < A[0]) {
             return 0;
         }
 
