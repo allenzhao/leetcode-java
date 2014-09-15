@@ -2,7 +2,7 @@
  *  By : Zehan Zhao , i@allenzhao.com
  *  Blog : http://blog.allenzhao.com
  *  LeetCode Link: https://oj.leetcode.com/problems/search-in-rotated-sort-array/
- *  Blog post link: http://blog.allenzhao.com/leetcode/2014/09/16/LeetCode-Search-Insert-Position/
+ *  Blog post link: http://blog.allenzhao.com/leetcode/2014/09/16/LeetCode-Search-in-Rotated-Sorted-Array
  */
 public class Solution {
     public int search(int[] A, int target) {
