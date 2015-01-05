@@ -17,6 +17,7 @@ public class Solution {
         start = 0;
         end = A.length - 1;
         while (start + 1 < end) {
+            mid = start + (end - start) /2;
             if (A[mid] == target) {
                 end = mid;
             } else if (A[mid] < target) {
@@ -37,6 +38,7 @@ public class Solution {
         start = 0;
         end = A.length - 1;
         while (start + 1 < end) {
+            mid = start + (end - start) /2;
             if (A[mid] == target) {
                 start = mid;
             } else if (A[mid] > target) {
